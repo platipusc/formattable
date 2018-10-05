@@ -81,8 +81,8 @@ formattable_widget_html <- function(name, package, id, style, class, width, heig
     tags$div(id = id, class = class, style = style,
       width = width, height = height),
     list(
-      html_dependency_jquery(),
-      html_dependency_bootstrap("default")
+      html_dependency_jquery()
+      # html_dependency_bootstrap("default")
     )
   )
 }
